@@ -9,7 +9,7 @@ import RemoveFav from './components/RemoveFav';
 function App() {
   const [movies, setMovies] = useState([]);
   const [favorites, setFavorites] = useState([])
-  const [searchValue, setSearchValue] = useState('black')
+  const [searchValue, setSearchValue] = useState('star wars')
   
 
 const getMovieRequest = async(searchValue) =>{
